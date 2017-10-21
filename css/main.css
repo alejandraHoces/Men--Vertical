@@ -1,12 +1,14 @@
-
+/*Definiendo tipo de letra*/
 body {
   font-family: sans-serif;
 }
 
+/*Definiendo lista de enlaces*/
 nav {
   width: 200px;
 }
 
+/*Definiendo lineacion ,tipo de lista sin viñeta y interlineado */
 ul {
   outline: 1px solid gold;
   list-style: none;
@@ -14,36 +16,36 @@ ul {
   padding: 0;
   line-height: 30px;
 }
-
+/*definiendo una linea en la lista realizada y el fondo de la misma*/
 li {
   outline: 1px solid gold;
   background: white;
 }
-
+/*Definiendo el contenido a tipo bloque,quitando el subrayado al link,dandole color a la letra*/
 a {
   display: block;
   text-decoration: none;
   color: red;
   padding-left: 10px;
 }
-
+/*Seleccionando y aplicando un estilo al enlace cuando lo coloque sobre él*/
 a:hover {
   background: #333;
 }
-
+/*Seleccionando y dando estilo a el enlace activo*/
 a:active {
   background: #333;
   color: #fff;
 }
-
+/*Seleccionando el primer elemento de la lista y colocandole un fondo*/
 ul li:first-child {
   background: gold;
 }
-
+/*Seleccionando el primer elemento de la lista y colocandole un color de letra ,cuando el cursor se encuentre sobre el*/
 ul li:first-child a:hover {
   color:#fff;
 }
-
+/*Seleccionando el primer elemento de la lista y colocandole un color de letra ,cuando se encuentre activo*/
 ul li:first-child a:active {
   color:#000;
 }
