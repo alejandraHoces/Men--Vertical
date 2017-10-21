@@ -1,0 +1,49 @@
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  width: 200px;
+}
+
+ul {
+  outline: 1px solid gold;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+li {
+  outline: 1px solid gold;
+  background: white;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: red;
+  padding-left: 10px;
+}
+
+a:hover {
+  background: #333;
+}
+
+a:active {
+  background: #333;
+  color: #fff;
+}
+
+ul li:first-child {
+  background: gold;
+}
+
+ul li:first-child a:hover {
+  color:#fff;
+}
+
+ul li:first-child a:active {
+  color:#000;
+}
